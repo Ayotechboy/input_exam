@@ -1,12 +1,13 @@
 
 import React from 'react'
 
-const UserOutput = () => {
+const UserOutput = (props) => {
   return (
     // na user output be this
     <div>
-        <p>im a starboy</p>
-        <p>starboy for life</p>
+        <p>im a {props.username}</p>
+        <p> {props.username} for life</p>
+        
     </div>
   )
 }

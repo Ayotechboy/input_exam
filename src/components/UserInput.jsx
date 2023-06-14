@@ -1,11 +1,11 @@
 import React from 'react'
 import './button.css'
 
-const UserInput = () => {
+const UserInput = (props) => {
   return (
     // na user input be this
     <div>
-        <input type="text" name="" id="button" />
+        <input onChange={props.change} type="text" name="" id="button" />
     </div>
   )
 }
